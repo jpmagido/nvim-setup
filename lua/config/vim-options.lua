@@ -7,7 +7,7 @@ vim.g.mapleader= " "
 
 vim.opt.swapfile = false
 
-vim.keymap.set("n", "<leader>fv", vim.cmd.Ex)
+-- vim.keymap.set("n", "<leader>fv", vim.cmd.Ex)
 
 -- Navigate through panels better
 vim.keymap.set("n", "<c-k>", ':wincmd k<CR>')

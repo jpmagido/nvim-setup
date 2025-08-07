@@ -1,6 +1,12 @@
-require ("config.vim-options")
 require ("config.lazy")
+require ("config.vim-options")
 require ("config.treesitter")
 require ("config.telescope")
 require ("config.catppuccin")
+require ("config.nvim_lsp_config")
+require ("config.cmp")
+require ("config.oil")
+require ("config.harpoon")
+require ("config.undotree")
+require ("config.fugitive")
 
