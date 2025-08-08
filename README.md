@@ -12,8 +12,9 @@
 - Nvim LSP
 - Ruby LSP
 
+# Features
 * Navigation
- -> Harpoon  
+ -> __Harpoon__  
  -> Commands  
     Ctrl + p (display Harpoon menu)  
     Space + a (add file)  
@@ -21,11 +22,9 @@
     Ctrl + u (Go to file 2)  
     Ctrl + i (Go to file 3)  
     Ctrl + o (Go to file 4)  
-
- -> Oil  
+ -> __Oil__  
  -> Commands  
     Space + f + v (go to file tree)  
-
  -> Extra commands  
     Ctrl + k (Switch to up panel)  
     Ctrl + h (Switch to left panel)  
@@ -33,7 +32,7 @@
     Ctrl + l (Switch to right panel)  
     
 * Search  
- -> Telescope  
+ -> __Telescope__  
  -> Commands  
     Space + f + f (find file)  
     Space + f + g (grep files)  
@@ -41,11 +40,10 @@
     Space + f + b (show buffer)  
 
 * History  
- -> UndoTree  
+ -> __UndoTree__  
  -> Commands  
     Space + u (display file history)  
-
- -> Fugitive  
+ -> __Fugitive__  
  -> Commands  
     Space + g + s (display git interface)  
 
