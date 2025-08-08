@@ -17,3 +17,8 @@ vim.keymap.set("n", "<c-l>", ':wincmd l<CR>')
 
 vim.keymap.set("n", "<leader>h", ':nohlsearch<CR>')
 vim.wo.number = true
+
+vim.keymap.set("n", "<leader>fo", function()
+  vim.lsp.buf.format()
+end, { desc = "auto formatter" })
+

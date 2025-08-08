@@ -1,8 +1,20 @@
 local lspconfig = require("lspconfig")
 local capabilities = require('cmp_nvim_lsp').default_capabilities()
 
+vim.filetype.add({
+  extension = {
+    rake = "ruby",
+    erb = "ruby",
+  }
+})
+
 lspconfig.ruby_lsp.setup({
-  capabilities = capabilities
+  capabilities = capabilities,
+  filetypes = { "ruby" },
+  init_options = {
+    formatter = 'auto',
+    linters = { 'standard' },
+  }
 })
 
 vim.keymap.set("n", "K", vim.lsp.buf.hover, {})

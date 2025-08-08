@@ -55,10 +55,11 @@ __Ruby LSP__
  ``Space + g + d (go to definition)``  
  ``Space + g + r (go to references)``  
  ``Space + g + f (go to references)``  
- ``Space + g + a (show actions possible)``  
+ ``Space + c + a (show actions possible)``  
  ``Space + r + n (rename)``  
 
 # Other  
 - Commands  
  ``Space + h (stop highlight /search)``  
+ ``Space + f + o (auto indent)``  
 
