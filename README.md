@@ -21,6 +21,7 @@ __Harpoon__
    ``Ctrl + u (Go to file 2)``  
    ``Ctrl + i (Go to file 3)``  
    ``Ctrl + o (Go to file 4)``  
+
  __Oil__  
  - Commands  
    ``Space + f + v (go to file tree)``  
@@ -42,6 +43,7 @@ __Harpoon__
 __UndoTree__  
 - Commands  
  ``Space + u (display file history)``  
+
  __Fugitive__  
 - Commands  
  ``Space + g + s (display git interface)``  
